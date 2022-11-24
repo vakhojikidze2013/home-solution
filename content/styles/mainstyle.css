@@ -1,0 +1,90 @@
+body{
+    margin: 0px;
+    background-color: rgb(217, 217, 217);
+}
+
+
+/* smartphones, iPhone, portrait 480x320 phones */
+@media (min-width:320px){
+    
+}
+
+
+/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+@media (min-width:481px){ 
+    
+}
+
+
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media (min-width:641px){ 
+     
+}
+
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */ 
+@media (min-width:961px){ 
+    
+}
+
+
+/* big landscape tablets, laptops, and desktops */ 
+@media (min-width:1025px){ 
+    
+}
+
+
+/* hi-res laptops and desktops */
+@media (min-width:1400px){
+    
+    #header-div{
+
+    }
+
+    #logo-link{
+        height: 50px;
+        width: 100px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+    .page-logo{
+        height: 109px;
+        width: 216px;
+        margin-left: 53px;
+        margin-top: 30px;
+    }
+
+    #nav-div-container, #call-info-div, #logo-div-m{
+        display: inline-block;
+    }
+
+    #nav-div-container{
+        margin-left: 135px;
+    }
+
+    #ul-navigation{
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0; 
+        font-size: 21px;
+    }
+
+    #ul-navigation > li{
+        margin-left: 88px;
+    }
+
+    #logo-div-m{
+
+    }
+
+    #call-info-div{
+        height: 200px;
+        width: 200px;
+    }
+    
+}
+
+
+
