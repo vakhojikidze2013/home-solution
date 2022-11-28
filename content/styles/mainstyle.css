@@ -1,90 +1,300 @@
-body{
+body {
     margin: 0px;
-    background-color: rgb(217, 217, 217);
+    height: 100vh;
 }
 
-
-/* smartphones, iPhone, portrait 480x320 phones */
-@media (min-width:320px){
+header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(6, 145, 145);
+    justify-content: space-evenly;
     
 }
 
+.d-flex {
+    display: flex;
+}
 
-/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
-@media (min-width:481px){ 
-    
+.page-logo {
+    height: 100px;
 }
 
 
-/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
-@media (min-width:641px){ 
-     
+.ul-list{
+    display: flex;
+    list-style: none;
+}
+
+.ul-list li a{
+    margin-left: 70px;
+    text-decoration: none;
+    color: rgb(217, 255, 0);
+    font-size: 20px;
+    font-weight:500;
 }
 
 
-/* tablet, landscape iPad, lo-res laptops ands desktops */ 
-@media (min-width:961px){ 
-    
+.contact-div {
+    color: rgb(217, 255, 0);
+    font-size: 15px;
 }
 
-
-/* big landscape tablets, laptops, and desktops */ 
-@media (min-width:1025px){ 
-    
+.ul-list li a:hover{
+    text-decoration:underline;
+    color: rgb(255, 174, 0);
 }
 
+/* აქედან იწყება უშუალოდ ფეიჯის აწყობა */
 
-/* hi-res laptops and desktops */
-@media (min-width:1400px){
-    
-    #header-div{
-
-    }
-
-    #logo-link{
-        height: 50px;
-        width: 100px;
-        margin-left: 10px;
-        margin-top: 5px;
-    }
-
-    .page-logo{
-        height: 109px;
-        width: 216px;
-        margin-left: 53px;
-        margin-top: 30px;
-    }
-
-    #nav-div-container, #call-info-div, #logo-div-m{
-        display: inline-block;
-    }
-
-    #nav-div-container{
-        margin-left: 135px;
-    }
-
-    #ul-navigation{
-        display: flex;
-        list-style: none;
-        padding: 0;
-        margin: 0; 
-        font-size: 21px;
-    }
-
-    #ul-navigation > li{
-        margin-left: 88px;
-    }
-
-    #logo-div-m{
-
-    }
-
-    #call-info-div{
-        height: 200px;
-        width: 200px;
-    }
-    
+.container1-div {
+    display: flex;
+    width: 100%;
 }
 
 
 
+.banner {
+    position: absolute;
+    height: 700px;
+    width: 100%;
+}
+
+
+.text-div{
+    left: 10%;
+    position: relative;
+    color: #373536;
+    font-size: 3.556rem;
+    font-weight: 800;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.btn1 button {
+    top: 70%;
+    left: 10%;
+    position: absolute;
+    background-color:#06597F;
+    height: 40px;
+    width: 15%;
+    border: 0;
+    color: aliceblue;
+    box-shadow: 0px 5px 50px 20px #00aaf8;
+}
+
+.btn1 :hover {
+    border: 1px solid #06597F;
+    background: rgba(0, 0, 0, 0.726);
+    color: orangered;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.find-mr-div {
+    display: flex;
+    margin-top: 30%;
+    justify-content: flex-end;
+    background-color: #373536d8;
+    position: relative;
+    border-radius: 20px;
+    height: 150px;
+    width: 550px;
+}
+
+.find-mr-div-p  {
+    position: absolute;
+    color: white;
+    width: 290px;
+    right: 25%;
+    top: 7%;
+    font-size: 16.2px;
+}
+
+.find-mr-div-child input{
+    top: 50%;
+    margin-left: 25px;
+    background-color:rgb(255, 255, 255);
+    position: relative;
+    border-radius: 5px;
+    border: 0;
+    height: 50px;
+    width: 500px;
+}
+
+
+.find-mr-div-child button {
+    background-color:#06597F;
+    margin-left: 62.2%;
+    top: 15.5%;
+    height: 52px;
+    width: 34%;
+    border: 0;
+    border-radius: 0px 5px 5px 0px;
+    color: aliceblue;
+    position: relative;
+}
+
+.find-mr-div-child button:hover{
+    border: 1px solid #06597F;
+    background: rgba(0, 0, 0, 0.726);
+    color: orangered;
+    transition: 1s;
+    cursor: pointer;
+    
+}
+
+/* მეორე "ფეიჯისთვის" */
+.container2-div{
+    width: 100%;
+    margin-top: 10%;
+
+}
+
+.container2-div-h2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container2-div2{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.container2-div2 pre {
+    color: #373536;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.container2-div2 h3 {
+    color: #06597F;
+    font-size: 25px;
+}
+
+.container2-btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container2-btns button {
+    background-color: #0A8FCC;
+    border: 0;
+    color: white;
+    width: 300px;
+    box-shadow:0px 0px 20px 0px #00aaf8;
+    /* animation-name: btnMove;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    position: relative; */
+}
+/* for animation */
+@keyframes btnMove {
+    from {left: -70px;}
+    to {left: 70px;}
+}
+
+.container2-btns button:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.726);
+    transition: 1s;
+    color: orangered;
+    border: 1px solid #06597F;
+    font-weight: 500;
+}
+
+.container2-div p {
+    color: black;
+    display: flex;
+    text-transform: uppercase;
+    line-height: 1.5;
+    justify-content: center;
+    font-size: 28px;
+}
+
+.container2-div a {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: #06597F;
+}
+
+/* For container3-div */
+.container3-div{
+    width: 100%;
+    margin-top: 7%;
+    height: 100vh;
+}
+
+.container3-div pre {
+    display: flex;
+    justify-content: center;
+    color: #373536;     
+    font-size: 40px;
+}
+
+
+.container3-div2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+
+}
+
+.grid-items {
+    background-color: ;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    padding: 30px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    
+}
+
+.m-top {
+    margin-top: 30px;
+}
+
+.grid-items p {
+    font-size:25px;
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    font-weight: 700;
+
+}
+.btn-div3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.container3-btn {
+    font-size: 30px;
+    background-color: #06597F;
+    color: white;
+    box-shadow: 0px 5px 50px 20px #00aaf88d;
+    border: 0;
+}
+
+.container3-btn:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.358);
+    transition: 1s;
+    color: orangered;
+    border: 1px solid #06597F;
+    font-weight: 500;
+}
+
+.container3-div2 a{
+    text-decoration: none;
+    color: #373536;
+}
+
+.container3-div2 a:hover {
+    text-decoration: underline;
+   color: orangered;
+}
