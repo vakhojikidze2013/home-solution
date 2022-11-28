@@ -226,7 +226,7 @@ header {
 .container3-div{
     width: 100%;
     margin-top: 7%;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .container3-div pre {
@@ -244,7 +244,6 @@ header {
 }
 
 .grid-items {
-    background-color: ;
     text-align: center;
     height: 100px;
     width: 100px;
@@ -252,7 +251,10 @@ header {
     padding: 30px;
     border: 2px solid blue;
     border-radius: 10px;
-    
+}
+
+.grid-items:hover {
+        background-color: #0a8fcc3b;
 }
 
 .m-top {
@@ -262,7 +264,6 @@ header {
 .grid-items p {
     font-size:25px;
     display: flex;
-    padding-top: 20px;
     justify-content: center;
     font-weight: 700;
 
@@ -296,5 +297,115 @@ header {
 
 .container3-div2 a:hover {
     text-decoration: underline;
-   color: orangered;
+    color: blue;
 }
+
+.plumber2 {
+    width: 50px;
+}
+
+/* for container4 */
+
+.container4-div {
+    background-color: #373536;
+    width: 100%;
+    height: 60vh;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container4-div p {
+    color: whitesmoke;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.container4-div a {
+    text-decoration: none;
+    color: white;
+}
+
+.container4-div a :hover {
+    color:orangered;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.container4-div p :hover {
+    color: orangered;    
+    text-decoration: underline;
+}
+
+.container4-div .div4-p {
+    color: #06597F;
+}
+.container4-div .div4-p:hover{
+    text-decoration: none;
+    cursor: none;
+    color: #06597F;
+}
+
+.container4-div button {
+    background-color:#06597F;
+    border: 0;
+    color: aliceblue;
+    font-size: 20px;
+    box-shadow: 0px 0px 15px 1px #06597F;
+}
+
+.container4-div button:hover {
+    border: 1px solid #06597F;
+    background: rgba(0, 0, 0, 0);
+    color: #06597F;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.follow-icon {
+    margin-left: 15px;
+}
+
+footer {
+    display: flex;
+    gap: 7%;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    line-height: 23px;
+}
+
+.footer-div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.footer-div a {
+    position: relative;
+    color: #06597F;
+    text-decoration: none;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .footer-div a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #06597F;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .footer-div a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
