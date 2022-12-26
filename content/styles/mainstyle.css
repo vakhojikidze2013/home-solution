@@ -6,36 +6,48 @@ body {
 header {
     display: flex;
     align-items: center;
-    background-color: rgb(6, 145, 145);
+    background-color: rgb(255, 255, 255);
     justify-content: space-evenly;
     
 }
 
+.header-middle-container{
+    display: block;
+
+
+}
+
+
 .d-flex {
     display: flex;
+    color: rgb(0, 0, 0)
 }
 
 .page-logo {
-    height: 100px;
+    height: 150px;
 }
 
 
 .ul-list{
     display: flex;
     list-style: none;
+    margin-top: 105px;
+    background-color: rgb(236, 187, 0);
+    height: 40px;
+    width: 941px;
 }
 
 .ul-list li a{
     margin-left: 70px;
     text-decoration: none;
-    color: rgb(217, 255, 0);
+    color: rgb(0, 0, 0);
     font-size: 20px;
     font-weight:500;
 }
 
 
 .contact-div {
-    color: rgb(217, 255, 0);
+    color: rgb(0, 0, 0);
     font-size: 15px;
 }
 
@@ -63,7 +75,7 @@ header {
 .text-div{
     left: 5%;
     position: relative;
-    color: #06597F;
+    color: #061e28;
     font-size: 3.556rem;
     font-weight: 800;
     line-height: 1;
@@ -79,7 +91,7 @@ header {
     width: 15%;
     border: 0;
     color: aliceblue;
-    box-shadow: 0px 5px 50px 20px #00aaf8;
+    box-shadow: 0px 5px 50px 20px rgb(236, 187, 0);;
 }
 
 .btn1 :hover {
@@ -99,6 +111,7 @@ header {
     border-radius: 20px;
     height: 150px;
     width: 550px;
+    visibility: hidden;
 }
 
 .find-mr-div-p  {
@@ -249,7 +262,7 @@ header {
     width: 100px;
     margin: auto;
     padding: 30px;
-    border: 2px solid blue;
+    border: 3px solid rgb(223, 197, 2);
     border-radius: 10px;
 }
 
@@ -277,8 +290,11 @@ header {
     font-size: 30px;
     background-color: #06597F;
     color: white;
-    box-shadow: 0px 5px 50px 20px #00aaf88d;
-    border: 0;
+    box-shadow: 0 10px 10px rgb(0 0 0 / 20%);
+    border: 1.7px solid rgb(255 255 255);
+    border-radius: 4px;
+    width: 400px;
+    height: 66px;
 }
 
 .container3-btn:hover {
@@ -301,7 +317,7 @@ header {
 }
 
 .plumber2 {
-    width: 50px;
+    width: 101px;
 }
 
 /* for container4 */
@@ -392,7 +408,7 @@ footer {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
-  .footer-div a::after {
+.footer-div a::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -403,9 +419,35 @@ footer {
     background-color: #06597F;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
-  }
-  
-  .footer-div a:hover::after {
+}
+
+.footer-div a:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
-  }
+}
+
+.phone-number-image{
+    width: 370px;
+    height: 60px;
+    margin-top: 7px;
+}
+
+.btn-header{
+    font-size: 35px;
+    background-color: #06597F;
+    color: white;
+    box-shadow: 0 10px 10px rgb(0 0 0 / 20%);
+    border: 1.7px solid rgb(255 255 255);
+    border-radius: 4px;
+    width: 400px;
+    height: 66px;
+}
+
+.btn-header:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.358);
+    transition: 1s;
+    color: orangered;
+    border: 1px solid #06597F;
+    font-weight: 500;
+}
