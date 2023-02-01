@@ -1,0 +1,39 @@
+#service-container{
+    display: grid;
+    grid-template-columns: repeat(4, 215px);
+    grid-template-rows: repeat(2, 300px);
+    justify-content: center;
+  
+}
+
+.services{
+    height: 280px;
+}
+
+.service-img{
+    width: 200px;
+    height: 210px;
+    z-index: -1;
+}
+
+.text{
+    font-family: 'roboto', arial;
+    font-size: 14px;
+    font-weight: 500;
+    z-index: 100;
+    position: relative;
+    width: 122px;
+    background-color: white;
+    right: -13px;
+    top: -42px;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 2px;
+}
+
+.service-bottom-text{
+    font-family: 'roboto', arial;
+    font-weight: 400;
+    font-size: 8px;
+}
