@@ -11,24 +11,41 @@
 }
 
 #main-logo {
-    max-width: 84px;
+    max-width: 80px;
+    padding-left: 20px;
+    height: 80px;
 }
 
 #banner {
+    height: 80px;
     max-width: 500px;
 }
 
-#number {
+#number_container {
     position: absolute;
-    top: 30px;
+    height: auto;
+    top: 0px;
     right: 0;
-    max-width: 300px;
     background-color: rgb(184, 192, 68);
 }
+
+
 
 #bottom-section {
     display: flex;
     justify-content: space-between;
     width: 500px;
     margin-left: 24px;
+}
+#number{
+    color:white;
+    font-size: 30px;
+    border:thin;
+    margin:0;
+    padding-left: 10px;
+}
+#num_icon{
+    display: flex;
+    padding: 25px 50px 25px 20px;
+    align-items: center;
 }
