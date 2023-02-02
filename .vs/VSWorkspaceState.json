@@ -4,6 +4,10 @@
     "\\content",
     "\\content\\styles"
   ],
+<<<<<<< HEAD
+  "SelectedNode": "\\content\\styles\\mainstyle.css",
+=======
   "SelectedNode": "\\header.html",
+>>>>>>> 5a1e61ba2d298a90bf7f7d853ac296c4fe352d6b
   "PreviewInSolutionExplorer": false
 }
