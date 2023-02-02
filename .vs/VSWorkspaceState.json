@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\content",
+    "\\content\\styles"
   ],
-  "SelectedNode": "\\C:\\Users\\Koba Gigiadze\\Source\\Repos\\home-solution",
+  "SelectedNode": "\\content\\styles\\mainstyle.css",
   "PreviewInSolutionExplorer": false
 }
