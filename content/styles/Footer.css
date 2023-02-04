@@ -1,6 +1,6 @@
-.footer-div {
+.container-footer{
     background-color: #25362c;
-    width:1900px;
+    width: 100%;
     height:1400px;
 }
 #grafiti{
@@ -19,86 +19,30 @@
     width: 110px;
     height: 110px;
     position:relative;
+    display: block;
+    width: 100%;
+    height: 600px;
 }
-#call1{
-    color:white;
-    padding-left: 30px;
-    padding-top: 1150px;
-    position: absolute;
+
+.footer-first-element{
+    background-image: url("../img/Footer/footerLogo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 1500px;
+    width: 100%; 
 }
-#line1{
-    position: absolute;
-    padding-left: 110px;
-    padding-top: 1050px;
-    width: 400px;
-    height: 150px;
+
+
+.footer-second-element{
+    height: 1px;
+    display: grid;
+    grid-template-columns: repeat(5, 300px);
+    grid-template-rows: repeat(1, 10px);
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
-#call2{
-    color:white;
-    padding-left: 330px;
-    padding-top: 1150px;
-    position: absolute;
-}
-#line2{
-    position: absolute;
-    padding-left: 470px;
-    padding-top: 1050px;
-    width: 400px;
-    height: 150px;
-}
-#insta{
-    padding-left: 310px;
-    padding-top: 1000px;
-    width: 110px;
-    height: 110px;
-}
-#fb{
-    padding-left: 250px;
-    padding-top: 1000px;
-    width: 110px;
-    height: 110px;
-}
-#call3{
-    color:white;
-    padding-left: 700px;
-    padding-top: 1150px;
-    position: absolute;
-}
-#line3{
-    position: absolute;
-    padding-left: 855px;
-    padding-top: 1050px;
-    width: 400px;
-    height: 150px;
-}
-#mail{
-    padding-left: 240px;
-    padding-top: 1000px;
-    width: 110px;
-    height: 110px;
-}
-#call4{
-    color:white;
-    padding-left: 1080px;
-    padding-top: 1150px;
-    position: absolute;
-}
-#line4{
-    position: absolute;
-    padding-left: 1270px;
-    padding-top: 1050px;
-    width: 400px;
-    height: 150px;
-}
-#loc{
-    padding-left: 280px;
-    padding-top: 1000px;
-    width: 110px;
-    height: 110px;
-}
-#call5{
-    color:white;
-    padding-left: 1490px;
-    padding-top: 1150px;
-    position: absolute;
+
+.footer-sec-item{
+    display: inline-block;
 }
