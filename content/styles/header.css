@@ -39,11 +39,12 @@
 
 #number{
     color:white;
+    font-family: 'Gill Sans MT', sans-serif;
     font-size: 30px;
     border:thin;
     margin:0;
     padding-left: 10px;
-    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.5 );
+    text-shadow: -0.5px -0.5px 1px rgba(0, 0, 0, 0.5 );
 }
 
 #num_icon{
