@@ -27,7 +27,7 @@
     font-family: 'roboto', arial;
     font-size: 14px;
     font-weight: 500;
-    z-index: 100;
+    z-index: 10;
     position: relative;
     width: 176px;
     background-color: #e2e2e2;
@@ -44,12 +44,5 @@
     font-family: 'roboto', arial;
     font-weight: 400;
     font-size: 8px;
-<<<<<<< HEAD
     
-=======
-}
-
-.h2-services{
-    font-size: 40px;
->>>>>>> 73a372fbdc31343d506ab235e0ab89f40b63fb96
 }

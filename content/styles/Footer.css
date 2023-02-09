@@ -6,12 +6,20 @@
 }
 
 .footer-first-element{
-    background-image: url("../img/Footer/footerLogo.png");
-    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%; 
+}
+
+#footer-logo{
+    width: 10%;
+}
+
+#bg-png{
     height: 400px;
     width: 100%;
 }
-
 
 .footer-second-element{
     height: 400px;
