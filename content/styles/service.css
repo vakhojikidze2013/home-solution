@@ -1,5 +1,8 @@
 #main-service-container{
     margin-top: 22%;
+    background-color: white;
+    height: 1000px;
+    
 }
 
 .h2-services{
@@ -8,7 +11,6 @@
 
 #service-container{
     display: grid;
-    grid-template-columns: repeat(4, 300px);
     grid-template-rows: repeat(2, 400px);
     justify-content: center;
 }
@@ -17,10 +19,28 @@
     height: 280px;
 }
 
+.service-cn-one{
+    grid-template-columns: repeat(4, 300px);
+    display: grid;
+    justify-content: center;
+}
+
+.service-cn-two{
+    background-color: rgb(239, 239, 239);
+    grid-template-columns: repeat(4, 300px);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 1825px;
+    height: 500px;
+    margin-bottom: 100px;
+}
+
 .service-img{
     width: 260px;
     height: 290px;
     z-index: -1;
+
 }
 
 .text {
