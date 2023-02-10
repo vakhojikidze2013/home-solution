@@ -1,3 +1,4 @@
+const screenStepper = 1.691891891891892;
 var scrollSteps = 0;
 var defaultBannerCoverPx = 0;
 var bannerCoverStep = window.screen.height / 240;
@@ -11,6 +12,11 @@ var scrollBefore = 0;
 window.addEventListener('scroll',function(e){
     const scrolled = window.scrollY;
     
+    // if (scrolled > this.window.innerHeight / screenStepper){
+    //     console.log("banner not view")
+    //     return;
+    // }
+
     if(scrollBefore > scrolled){
         console.log("ScrollUP");
         scrollBefore = scrolled;
