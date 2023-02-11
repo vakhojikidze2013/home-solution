@@ -72,19 +72,3 @@
     padding-top: 100px;
     font-size: 24px;
 }
-
-.container-photo1 {
-    display: grid;
-    grid-template-rows: 660px;
-    margin-top: 200px;
-}
-
-#grass {
-    float: right;
-    margin-right: 150px;
-}
-
-#land {
-    float: left;
-    padding-left: 87px;
-}
