@@ -1,0 +1,15 @@
+.container-photos-infos {
+    display: grid;
+    grid-template-rows: 660px;
+    margin-top: 200px;
+}
+
+#grass {
+    float: right;
+    margin-right: 150px;
+}
+
+#land {
+    float: left;
+    padding-left: 87px;
+}
