@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\content",
+    "\\content\\img",
+    "\\content\\img\\Footer",
     "\\content\\styles"
   ],
-  "SelectedNode": "\\content\\styles\\Footer.css",
+  "SelectedNode": "\\mainIndex.html",
   "PreviewInSolutionExplorer": false
 }

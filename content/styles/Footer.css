@@ -43,13 +43,10 @@
 #bg-png{
     height: 400px;
     width: 100%;
-=======
-    background-image: url("../img/Footer/footerLogo.png");
     background-repeat: no-repeat;
     background-size: contain;
     height: 700px;
     width: 100%; 
->>>>>>> 2f700b1f699cab1cec9edcdaf902eb3f79b813f0
 }
 
 .footer-second-element{
