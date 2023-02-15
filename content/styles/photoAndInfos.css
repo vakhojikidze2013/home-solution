@@ -1,8 +1,11 @@
 .container-photos-infos {
-    display: grid;
+    background-color: white;
     grid-template-rows: 660px;
-    margin-top: 200px;
+    margin: 2% 2%;
 }
+    .container-photos-infos td {
+        border-spacing: 0px;
+    }
 
 #grass {
     float: right;
