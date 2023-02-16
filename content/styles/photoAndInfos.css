@@ -11,14 +11,15 @@
 
 #grass {
     float: right;
-    
+    width:100%
 }
 
 #land {
     float: left;
     padding-left: 87px;
     margin-top:0;
+    width:100%;
 }
 .photos_text{
-    margin-left: 10%;
+    padding-left: 10%;
 }
