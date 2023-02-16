@@ -12,14 +12,15 @@
 }
 
 #main-logo {
-    max-width: 80px;
-    padding-left: 100px;
-    height: 80px;
+    max-width: 120px;
+    padding-left: 60px;
+    height: 120px;
 }
 
 #banner {
-    height: 80px;
-    max-width: 500px;
+    height: 120px;
+    width: 600px;
+    
 }
 
 #number_container {
@@ -28,6 +29,8 @@
     top: 0px;
     right: 0;
     background-color: rgb(184, 192, 68);
+    padding-right: 60px;
+    padding-bottom: 15px;
 }
 
 #bottom-section {
@@ -40,10 +43,12 @@
 #number{
     color:white;
     font-family: 'Gill Sans MT', sans-serif;
-    font-size: 30px;
+    font-weight: 700;
+    font-size: 40px;
     border:thin;
     margin:0;
     padding-left: 10px;
+    padding-top: 15px;
     text-shadow: -0.5px -0.5px 1px rgba(0, 0, 0, 0.5 );
 }
 
@@ -63,5 +68,9 @@
 
 .navigation-ul > li{
     display: inline-block;
-    padding: 9px 31px;
+    font-family: 'Gill Sans MT', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 9px 22px;
+    margin-top: 11px;
 }
