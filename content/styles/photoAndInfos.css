@@ -5,14 +5,20 @@
 }
     .container-photos-infos td {
         border-spacing: 0px;
+        padding:0;
+        
     }
 
 #grass {
     float: right;
-    margin-right: 150px;
+    
 }
 
 #land {
     float: left;
     padding-left: 87px;
+    margin-top:0;
+}
+.photos_text{
+    margin-left: 10%;
 }
