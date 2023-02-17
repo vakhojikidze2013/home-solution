@@ -2,10 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\content",
-    "\\content\\img",
-    "\\content\\img\\Footer",
-    "\\content\\styles"
+    "\\content\\scripts"
   ],
-  "SelectedNode": "\\mainIndex.html",
+  "SelectedNode": "\\mobile-header.html",
   "PreviewInSolutionExplorer": false
 }

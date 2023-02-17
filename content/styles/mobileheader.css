@@ -1,7 +1,7 @@
 #menuToggle {
     display: block;
     position: absolute;
-    top: 53px;
+    top: 56px;
     left: 10px;
     z-index: 1;
     -webkit-user-select: none;
@@ -103,14 +103,55 @@
 #number {
     position: fixed;
     top: -2px;
-    right: 15px;
+    right: 10px;
     background-color: #c6d043;
     color: white;
     font-weight: bold;
     text-shadow: #000 1px 0 5px;
     font-size: 20px;
-    min-width: 150px;
+    min-width: 160px;
+    border-width: 100px;
+    border-color: #c6d043;
+    border-radius: 25px;
 }
 .header-con{
     background-color: grey;
+}
+#footer-mobile-logo{
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.footer-con {
+    background-color: #25362c;
+}
+
+.footerFB {
+    justify-content: center;
+    display: grid;
+    align-content: center;
+    grid-template-rows: 50px;
+    grid-template-columns: 35px 50px;
+}
+
+.footer-sec-item3 {
+    padding-top: 10px;
+    margin-left: -130px;
+}
+
+.bottom-text {
+    font-size: 14px;
+    margin-left: -130px;
+    color: white;
+}
+#icon1{
+    width: 22px;
+}
+.bottom-text1 {
+    font-size: 14px;
+    margin-left: 0px;
+    color: white;
+
+}
+.grid-base{
 }
