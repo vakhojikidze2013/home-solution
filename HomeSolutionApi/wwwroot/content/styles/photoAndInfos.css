@@ -1,0 +1,44 @@
+.service-info-cn{
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    padding: 30px;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#title {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: -50px;
+}
+.service-info {
+    display: inline-block;
+    font-size: 25px;
+    flex: 1;
+    text-align: justify;
+    text-align: center;
+    margin-left: -30px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.service-photo{
+    width: 50%;
+    height: auto;
+    
+}
+@media screen and (max-width: 767px) {
+    .service-info-cn{
+        flex-direction: column;
+    }
+
+    .service-photo{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}

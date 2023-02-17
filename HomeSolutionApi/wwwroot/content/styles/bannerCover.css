@@ -1,0 +1,13 @@
+.banner-cover{
+    width: 100%;
+}
+
+.banner-cover-img{
+    width: 100%;
+    height: 669px;
+    background-size: cover;
+    background-image: url('../img/gazoni3.jpg');
+    background-attachment: fixed;
+    position: relative;
+    z-index: -1;
+}

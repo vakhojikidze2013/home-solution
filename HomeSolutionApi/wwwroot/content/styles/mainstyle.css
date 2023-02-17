@@ -1,0 +1,453 @@
+body {
+    margin: 0px;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-evenly;
+    
+}
+
+.header-middle-container{
+    display: block;
+
+
+}
+
+
+.d-flex {
+    display: flex;
+    color: rgb(0, 0, 0)
+}
+
+.page-logo {
+    height: 150px;
+}
+
+
+.ul-list{
+    display: flex;
+    list-style: none;
+    margin-top: 105px;
+    background-color: rgb(236, 187, 0);
+    height: 40px;
+    width: 941px;
+}
+
+.ul-list li a{
+    margin-left: 70px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight:500;
+}
+
+
+.contact-div {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+.ul-list li a:hover{
+    text-decoration:underline;
+    color: rgb(255, 174, 0);
+}
+
+/* აქედან იწყება უშუალოდ ფეიჯის აწყობა */
+
+.container1-div {
+    display: flex;
+    width: 100%;
+}
+
+
+
+.banner {
+    position: absolute;
+    height: 700px;
+    width: 100%;
+}
+
+
+.text-div{
+    left: 5%;
+    position: relative;
+    color: #061e28;
+    font-size: 3.556rem;
+    font-weight: 800;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.btn1 button {
+    top: 70%;
+    left: 10%;
+    position: absolute;
+    background-color:#06597F;
+    height: 40px;
+    width: 15%;
+    border: 0;
+    color: aliceblue;
+    box-shadow: 0px 5px 50px 20px rgb(236, 187, 0);
+}
+
+.btn1 :hover {
+    border: 1px solid #06597F;
+    background: rgba(0, 0, 0, 0.726);
+    color: orangered;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.find-mr-div {
+    display: flex;
+    margin-top: 30%;
+    justify-content: flex-end;
+    background-color: #373536d8;
+    position: relative;
+    border-radius: 20px;
+    height: 150px;
+    width: 550px;
+    visibility: hidden;
+}
+
+.find-mr-div-p  {
+    position: absolute;
+    color: white;
+    width: 290px;
+    right: 25%;
+    top: 7%;
+    font-size: 16.2px;
+}
+
+.find-mr-div-child input{
+    top: 50%;
+    margin-left: 25px;
+    background-color:rgb(255, 255, 255);
+    position: relative;
+    border-radius: 5px;
+    border: 0;
+    height: 50px;
+    width: 500px;
+}
+
+
+.find-mr-div-child button {
+    background-color:#06597F;
+    margin-left: 62.2%;
+    top: 15.5%;
+    height: 52px;
+    width: 34%;
+    border: 0;
+    border-radius: 0px 5px 5px 0px;
+    color: aliceblue;
+    position: relative;
+}
+
+.find-mr-div-child button:hover{
+    border: 1px solid #06597F;
+    background: rgba(0, 0, 0, 0.726);
+    color: orangered;
+    transition: 1s;
+    cursor: pointer;
+    
+}
+
+/* მეორე "ფეიჯისთვის" */
+.container2-div{
+    width: 100%;
+    margin-top: 10%;
+
+}
+
+.container2-div-h2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container2-div2{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.container2-div2 pre {
+    color: #373536;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.container2-div2 h3 {
+    color: #06597F;
+    font-size: 25px;
+}
+
+.container2-btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container2-btns button {
+    background-color: #0A8FCC;
+    border: 0;
+    color: white;
+    width: 300px;
+    box-shadow:0px 0px 20px 0px #00aaf8;
+    /* animation-name: btnMove;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    position: relative; */
+}
+/* for animation */
+@keyframes btnMove {
+    from {left: -70px;}
+    to {left: 70px;}
+}
+
+.container2-btns button:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.726);
+    transition: 1s;
+    color: orangered;
+    border: 1px solid #06597F;
+    font-weight: 500;
+}
+
+.container2-div p {
+    color: black;
+    display: flex;
+    text-transform: uppercase;
+    line-height: 1.5;
+    justify-content: center;
+    font-size: 28px;
+}
+
+.container2-div a {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: #06597F;
+}
+
+/* For container3-div */
+.container3-div{
+    width: 100%;
+    margin-top: 7%;
+    /* height: 100vh; */
+}
+
+.container3-div pre {
+    display: flex;
+    justify-content: center;
+    color: #373536;     
+    font-size: 40px;
+}
+
+
+.container3-div2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+
+}
+
+.grid-items {
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    padding: 30px;
+    border: 3px solid rgb(223, 197, 2);
+    border-radius: 10px;
+}
+
+.grid-items:hover {
+        background-color: #0a8fcc3b;
+}
+
+.m-top {
+    margin-top: 30px;
+}
+
+.grid-items p {
+    font-size:25px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+
+}
+.btn-div3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.container3-btn {
+    font-size: 30px;
+    background-color: #06597F;
+    color: white;
+    box-shadow: 0 10px 10px rgb(0 0 0 / 20%);
+    border: 1.7px solid rgb(255 255 255);
+    border-radius: 4px;
+    width: 400px;
+    height: 66px;
+}
+
+.container3-btn:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.358);
+    transition: 1s;
+    color: orangered;
+    border: 1px solid #06597F;
+    font-weight: 500;
+}
+
+.container3-div2 a{
+    text-decoration: none;
+    color: #373536;
+}
+
+.container3-div2 a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.plumber2 {
+    width: 101px;
+}
+
+/* for container4 */
+
+.container4-div {
+    background-color: #373536;
+    width: 100%;
+    height: 60vh;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container4-div p {
+    color: whitesmoke;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.container4-div a {
+    text-decoration: none;
+    color: white;
+}
+
+.container4-div a :hover {
+    color:orangered;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.container4-div p :hover {
+    color: orangered;    
+    text-decoration: underline;
+}
+
+.container4-div .div4-p {
+    color: #06597F;
+}
+.container4-div .div4-p:hover{
+    text-decoration: none;
+    cursor: none;
+    color: #06597F;
+}
+
+.container4-div button {
+    background-color:#06597F;
+    border: 0;
+    color: aliceblue;
+    font-size: 20px;
+    box-shadow: 0px 0px 15px 1px #06597F;
+}
+
+.container4-div button:hover {
+    border: 1px solid #06597F;
+    background: rgba(0, 0, 0, 0);
+    color: #06597F;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.follow-icon {
+    margin-left: 15px;
+}
+
+footer {
+    display: flex;
+    gap: 7%;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    line-height: 23px;
+}
+
+.footer-div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.footer-div a {
+    position: relative;
+    color: #06597F;
+    text-decoration: none;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+.footer-div a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #06597F;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.footer-div a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.phone-number-image{
+    width: 370px;
+    height: 60px;
+    margin-top: 7px;
+}
+
+.btn-header{
+    font-size: 35px;
+    background-color: #06597F;
+    color: white;
+    box-shadow: 0 10px 10px rgb(0 0 0 / 20%);
+    border: 1.7px solid rgb(255 255 255);
+    border-radius: 4px;
+    width: 400px;
+    height: 66px;
+}
+
+.btn-header:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.358);
+    transition: 1s;
+    color: orangered;
+    border: 1px solid #06597F;
+    font-weight: 500;
+}
