@@ -1,0 +1,15 @@
+
+h1 {
+    font-family:'Dosis', sans-serif;
+    font-weight: bolder;
+    font-size: 60px;
+    padding-left: 2%;
+}
+
+.text {
+    padding: 10vw 5vw;
+    line-height: 1.6em;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
+}

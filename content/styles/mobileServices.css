@@ -1,6 +1,7 @@
 .h2-services {
 	font-size: 70px;
 	padding-left: 5%;
+	font-family: ALK Sanet, SakarMtavr, sans-serif;
 }
 .service-img {
 	width: 90%;
@@ -11,11 +12,11 @@
 
 .text {
 	position: relative;
-	bottom: 28vw;
+	bottom: 25vw;
 	left: 9vw;
 	border: 10px solid white;
 	font-size: 70px;
-	padding: 0px 50px 0px 50px;
+	padding: 10px 50px 10px 50px;
 	display: block;
 	color: white;
 	width: 70%;
@@ -24,4 +25,6 @@
 .service-bottom-text {
 	margin: 0;
 	text-align: center;
+	font-family: ALK Sanet, SakarMtavr, sans-serif;
+	font-weight: bold;
 }
